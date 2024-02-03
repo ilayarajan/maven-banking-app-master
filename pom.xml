@@ -1,9 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
   <groupId>maven-banking-app</groupId>
-  <artifactId>kubernetes</artifactId>
-  <packaging>jar</packaging>
-  
+  <artifactId>maven-banking-app</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <relativePath/>
+  </parent>
+ 	<groupId>com.javatechie</groupId>
+	<artifactId>devops-integration</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>devops-integration</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>1.8</java.version>
+	</properties> 
   <properties>
   	<maven.compiler.target>1.8</maven.compiler.target>
   	<maven.compiler.source>1.8</maven.compiler.source>
