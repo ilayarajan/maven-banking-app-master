@@ -40,7 +40,7 @@
 	</dependency>
   </dependencies>
   
-  <build>
+   <build>
   	<plugins>
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
@@ -63,8 +63,11 @@
                     </goals>
                 </execution>
             </executions>
+        			</plugin>
+			<plugin>
+				<groupId>pl.project13.maven</groupId>
+				<artifactId>git-commit-id-plugin</artifactId>
         </plugin>
     </plugins>
     <finalName>kubernetes</finalName>
   </build>
-</project>
